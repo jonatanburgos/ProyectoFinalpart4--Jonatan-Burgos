@@ -11,13 +11,7 @@ body {
   font-size: 1.2rem;
   min-height: 100%; }
 
-.imagenfondo {
-  background-image: url(../img/20887.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Public Sans", sans-serif;
-  font-size: 1.2rem;
-  min-height: 100%; }
+
 
 .imagenfondocontacto {
   background-image: url(../img/cine.jpg);
@@ -28,23 +22,9 @@ body {
   background-size: cover;
 }
 
-.imagenfondoreseñas {
-  background-image: url(../img/20887.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
 
 html {
   height: 10%; }
-
-.lista-navegacion {
-  display: flex;
-  display: flex-wrap;
-  gap: 100px;
-  margin-left: 600px;
-  font-family: 'Bebas Neue', cursive;
-  list-style: none;
-  background-color: #eeeeee;
-  padding: 15px; }
 
 h1 {
   color: #020220; }
