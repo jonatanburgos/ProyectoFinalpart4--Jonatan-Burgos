@@ -11,6 +11,18 @@ body {
   font-size: 1.2rem;
   min-height: 100%; }
 
+  .block__header {
+    background-color: rgb(9, 135, 218);
+    font-family: 'Bebas Neue', cursive;
+    border: #010211;
+}
+
+
+  .block__footer {
+    background-color: rgb(9, 135, 218);
+    font-family: 'Bebas Neue', cursive;
+}
+
 
 
 .imagenfondocontacto {
@@ -28,59 +40,20 @@ html {
 
 h1 {
   color: #020220; }
-
-.lista-cine {
-  display: flex;
-  display: flex-wrap;
-  gap: 100px;
-  margin-left: 600px;
-  font-family: 'Bebas Neue', cursive; }
-
-.card__imdb {
-  margin: 100px; }
-
-.card_table {
-  font-family: 'Bebas Neue', cursive;
-  border: 10px solid;
-  color: black;
-  border: collapse;
-  width: 100%; }
-
-.card_cineparrafo {
-  color: #010211;
-  font-size: 20px;
-  font-weight: lighter;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  text-align: center; }
-
-.caja__cards {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: center; }
-
+  
 .card_imgcine {
   height: 300px;
   width: 1250px;
   margin: 10px; }
 
-.card__cine {
-  color: #04ee18;
-  font-size: 65px;
-  font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-left: 550px; }
+  .card__cine {
+    color: #04ee18;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 550px; }
 
-.card__cine1 {
-  color: #61fa09;
-  font-size: 65px;
-  font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-left: 400px; }
+
 
 .card_peliculas {
   color: #05adfc;
@@ -94,7 +67,7 @@ h1 {
   text-align: center; }
 
 .card__noticia1 {
-  background-color: #eeeeee;
+  background-color: rgb(9, 135, 218  );
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
   display: flex;
@@ -105,7 +78,7 @@ h1 {
   margin: 10px; }
 
 .card__noticia2 {
-  background-color: #eeeeee;
+  background-color: rgb(17, 141, 223  );
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: lighter;
   display: flex;
@@ -126,31 +99,10 @@ h1 {
   margin-top: 15px;
   margin-left: 15px; }
 
-.card_head {
-  color: #030dfb;
-  font-size: 65px;
-  font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: 5px; }
 
-.card__titulo {
-  color: #030dfb;
-  font-size: 35px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 10px;
-  padding-left: 300px; }
 
-.card__reseña {
-  color: #030dfb;
-  font-size: 20px;
-  font-weight: lighter;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  text-align: center; }
+
+
 
 .card__reseña2 {
   color: #030dfb;
@@ -174,8 +126,11 @@ h1 {
   padding-left: 5px;
   text-align: center; }
 
-.card__footer {
-  font-family: 'Bebas Neue', cursive; }
+
+
+
+
+
 
 @media (max-width: 1199.98px) {
   .container {
