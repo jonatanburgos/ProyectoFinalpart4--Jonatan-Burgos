@@ -35,6 +35,7 @@ body {
 }
 
 
+
 h1 {
   color: #020220; }
 .card_imgcine {
@@ -100,7 +101,7 @@ h1 {
 
 
 
-.card__reseña {
+.card__reseña2 {
   color: #030dfb;
   font-size: 20px;
   font-weight: lighter;
@@ -122,68 +123,62 @@ h1 {
   padding-left: 5px;
   text-align: center; }
 
-
-
-
-
-
-
-@media (max-width: 1199.98px) {
-  .container {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1 fr);
-    grid-template-rows: 20% auto 250px;
-    grid-template-areas: "header header "
- "aside main"
- "footer footer"; } }
-
-header {
-  grid-area: header;
-  background-color: #c4ee80;
-  font-family: 'Bebas Neue', cursive;
-  font-weight: bold;
-  color: wheat; }
-
-main {
-  grid-area: main;
-  background-color: aqua; }
-
-aside {
-  grid-area: aside;
-  background-color: #19ceee; }
-
-footer {
-  grid-area: footer;
-  font-family: 'Bebas Neue', cursive;
-  font-weight: bold;
-  color: wheat; }
-
-@media screen and (max-widht: 700px) and (min-width: 400px) {
-  .container {
-    text-align: right;
-    grid-template-columns: 1fr;
-    grid-template-rows: 20% auto auto 250px;
-    grid-template-areas: "header "
- "main"
- "aside"
- "footer"; } }
-
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px; }
-
-.container-inputs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Bebas Neue', cursive;
-  font-weight: bold;
-  color: wheat; }
-
-.iconify {
-  font-size: 50px; }
+  @media (max-width: 1199.98px) {
+    .container {
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(2, 1 fr);
+      grid-template-rows: 20% auto 250px;
+      grid-template-areas: "header header "
+   "aside main"
+   "footer footer"; } }
+  
+  header {
+    grid-area: header;
+    background-color: #c4ee80;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: wheat; }
+  
+  main {
+    grid-area: main;
+    background-color: aqua; }
+  
+  aside {
+    grid-area: aside;
+    background-color: #19ceee; }
+  
+  footer {
+    grid-area: footer;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: wheat; }
+  
+  @media screen and (max-widht: 700px) and (min-width: 400px) {
+    .container {
+      text-align: right;
+      grid-template-columns: 1fr;
+      grid-template-rows: 20% auto auto 250px;
+      grid-template-areas: "header "
+   "main"
+   "aside"
+   "footer"; } }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; }
+  
+  .container-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: wheat; }
+  
+  .iconify {
+    font-size: 50px; }
