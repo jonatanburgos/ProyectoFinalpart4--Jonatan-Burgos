@@ -28,9 +28,6 @@ body {
   background-attachment: fixed;
   background-size: cover; }
 
-html {
-  height: 10%; }
-
 h1 {
   color: #020220; }
 
@@ -90,7 +87,7 @@ h1 {
   margin-top: 15px;
   margin-left: 15px; }
 
-.card__reseña2 {
+.card__reseña {
   color: #030dfb;
   font-size: 20px;
   font-weight: lighter;
