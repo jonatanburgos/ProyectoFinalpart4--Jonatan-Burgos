@@ -29,7 +29,6 @@ body {
   background-image: url(../img/cine.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  height: 1800px;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -91,10 +90,10 @@ h1 {
   border: solid 10px #030dfb; }
 
 .card__imagen {
-  width: 1197px;
-  height: 840px;
-  margin-top: 15px;
-  margin-left: 15px; }
+  max-width: 100%;
+  display:block;
+  margin: 0%;
+}
 
 
 
@@ -123,7 +122,8 @@ h1 {
   padding-left: 5px;
   text-align: center; }
 
-  @media (max-width: 1199.98px) {
+
+  @media (max-width: 1280px) {
     .container {
       text-align: center;
       display: grid;
@@ -154,7 +154,7 @@ h1 {
     font-weight: bold;
     color: wheat; }
   
-  @media screen and (max-widht: 700px) and (min-width: 400px) {
+  @media screen and (max-widht: 768px) and (min-width: 300px) {
     .container {
       text-align: right;
       grid-template-columns: 1fr;
