@@ -86,8 +86,21 @@ h1 {
   padding: 10px; }
 
 .card {
+  width: 100%;
+  box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+  cursor: default;
+  transition:all 400ms ease;
   background-color: #e9c910;
   border: solid 10px #030dfb; }
+
+  .card:hover{
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.4);
+    transform: translateY(-3%);
+  }
+
+  .card__reseña{
+    background-color: #e9c910;
+    border: solid 10px #030dfb; }
 
 .card__imagen {
   max-width: 100%;
@@ -122,55 +135,6 @@ h1 {
   padding-left: 5px;
   text-align: center; }
 
-
-  @media (max-width: 1280px) {
-    .container {
-      text-align: center;
-      display: grid;
-      grid-template-columns: repeat(2, 1 fr);
-      grid-template-rows: 20% auto 250px;
-      grid-template-areas: "header header "
-   "aside main"
-   "footer footer"; } }
-  
-  header {
-    grid-area: header;
-    background-color: #c4ee80;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-    color: wheat; }
-  
-  main {
-    grid-area: main;
-    background-color: aqua; }
-  
-  aside {
-    grid-area: aside;
-    background-color: #19ceee; }
-  
-  footer {
-    grid-area: footer;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-    color: wheat; }
-  
-  @media screen and (max-widht: 768px) and (min-width: 300px) {
-    .container {
-      text-align: right;
-      grid-template-columns: 1fr;
-      grid-template-rows: 20% auto auto 250px;
-      grid-template-areas: "header "
-   "main"
-   "aside"
-   "footer"; } }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; }
-  
   .container-inputs {
     display: flex;
     flex-direction: column;
@@ -182,3 +146,36 @@ h1 {
   
   .iconify {
     font-size: 50px; }
+
+footer {
+  grid-area: footer;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: wheat; }
+
+
+/*media quaries*/
+@media (max-width: 768px) {
+  .container {
+    text-align: center;
+    grid-template-columns: repeat(3, 1 fr);
+    grid-template-rows: auto  auto auto;
+    grid-template-areas:
+    "header header "
+    "aside main main"
+    "footer footer"; }
+    
+    .aside{
+      height: auto;
+      margin-top: 40px;
+    }
+
+    .main{
+      height: auto;
+      margin-top: 40px;
+    }
+  }
+
+
+
+
